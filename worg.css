@@ -35,8 +35,9 @@
   body .title {
     margin-left: 0px;
     font-size: 2.5em;
+    line-height: 1.2em;
   }
-  #org-div-home-and-up{
+  #org-div-home-and-up {
     position: fixed;
     right: 0.5em;
     margin-top: 70px;
