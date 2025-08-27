@@ -167,7 +167,9 @@
     border: 0;
   }
   tbody {
-    border: 0;
+    border: 1px solid grey;
+    border-left: 0px;
+    border-right: 0px;
   }
   tr {
     border: 0;
@@ -183,8 +185,10 @@
     border: 1px solid grey;
     padding: 0 1em 0 1em;
   }
-  td:first-child, td:last-child, th:first-child, th:last-child {
+  td:first-child, th:first-child {
     border-left: 0px;
+  }
+  td:last-child, th:last-child {
     border-right: 0px;
   }
   code {
